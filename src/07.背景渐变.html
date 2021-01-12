@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .gradient-bg {
+      width: 100vw;
+      height: 100vh;
+      background: linear-gradient(135deg, #f66, #f90, #3c9, #09f, #66f) left center/400% 400%;
+      animation: move 10s 1 forwards;
+    }
+
+    @keyframes move {
+
+      0%,
+      100% {
+        background-position-x: left;
+      }
+
+      50% {
+        background-position-x: right;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="gradient-bg">
+  </div>
+</body>
+
+</html>

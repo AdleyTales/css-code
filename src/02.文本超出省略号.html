@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      width: 1000px;
+      padding: 50px 30px;
+      margin: 50px auto;
+      border-radius: 6px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, .3);
+    }
+
+    .single-ellipsis {
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .multiline-ellipsis {
+      display: -webkit-box;
+      word-break: break-all;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="single-ellipsis">
+      10支医疗队共209名队员，分别来自江苏省75家和浙江省70家医疗卫生机构。江苏省106名队员分成5支队伍支援石家庄市核酸检测基地，浙江省103名队员分别赴河北医科大学第一医院和邢台市核酸检测基地，协助开展核酸检测工作。浙江医疗队领队姚强说，医疗队实行24小时三班倒，昼夜不停完成核酸检测任务。医疗队员邹阳子告诉记者，她的家人也是医务人员，很支持她来河北，“希望能为河北省的疫情防控尽一份力”。
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <div class="multiline-ellipsis">
+      10支医疗队共209名队员，分别来自江苏省75家和浙江省70家医疗卫生机构。江苏省106名队员分成5支队伍支援石家庄市核酸检测基地，浙江省103名队员分别赴河北医科大学第一医院和邢台市核酸检测基地，协助开展核酸检测工作。浙江医疗队领队姚强说，医疗队实行24小时三班倒，昼夜不停完成核酸检测任务。医疗队员邹阳子告诉记者，她的家人也是医务人员，很支持她来河北，“希望能为河北省的疫情防控尽一份力”。这几天，华大基因的“火眼”实验室引起了石家庄市民的关注。10日上午，记者来到河北体育馆网球馆的活动场，迎面可见十几个联排搭建的白色气膜帐篷。透过窗户，身着防护服的工作人员紧张有序工作的身影映入眼帘。作为土生土长的石家庄人，大学毕业后杜玉涛选择到深圳工作。今年1月6日，位于深圳的华大基因集团决定派出经验丰富的先遣队驰援河北。杜玉涛主动请缨，获准后带队连夜从深圳直飞北京，再开五个小时的汽车到达石家庄。
+    </div>
+  </div>
+</body>
+
+</html>

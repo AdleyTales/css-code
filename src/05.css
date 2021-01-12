@@ -1,0 +1,37 @@
+.auto-typing {
+  font-weight: bold;
+  font-size: 30px;
+  color: #09f;
+  overflow: hidden;
+  border-right: 1px solid transparent;
+  width: 53ch;
+  font-family: Consolas, Monaco, monospace;
+  white-space: nowrap;
+  -webkit-animation: typing 5s steps(53) 0s infinite backwards, caret 500ms steps(1) 0s infinite forwards;
+          animation: typing 5s steps(53) 0s infinite backwards, caret 500ms steps(1) 0s infinite forwards;
+}
+
+@-webkit-keyframes caret {
+  50% {
+    border-right-color: currentColor;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-right-color: currentColor;
+  }
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+/*# sourceMappingURL=05.css.map */
